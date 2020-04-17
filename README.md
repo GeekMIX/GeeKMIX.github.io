@@ -1,2 +1,2 @@
 
-个人博客 GeeKMIX.github.io 
+个人博客 https://geekmix.github.io
