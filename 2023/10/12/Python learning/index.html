@@ -405,14 +405,12 @@
 <blockquote>
 <p>save  this code in a file named mymodule.py</p>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span> (name):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;hello ,&quot;</span> + name)</span><br></pre></td></tr></table></figure>
-
+<p>def hello (name):<br>    print(“hello ,” + name)</p>
 <h3 id="use-a-module"><a href="#use-a-module" class="headerlink" title="use a module"></a>use a module</h3><p>now we can use the module we just created by using the **import ** statement:</p>
 <blockquote>
-<p>import the module named <strong>mymodule</strong> , and call the <strong>hello</strong> function</p>
+<p>import the module named <strong>mymodule</strong> , and call the <strong>hello</strong> function<br>import mymodule</p>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> mymodule</span><br><span class="line"></span><br><span class="line">mymodule.hello(<span class="string">&quot;malu&quot;</span>)</span><br></pre></td></tr></table></figure>
-
+<p>mymodule.hello(“malu”)</p>
 <p>note: when using a function from a module, use the syntax:</p>
 <p><em>module_name.function_name</em></p>
 <h3 id="variables-in-module"><a href="#variables-in-module" class="headerlink" title="variables in module"></a>variables in module</h3><p>the module can contain functions, as already described ,but also variables of all types </p>
