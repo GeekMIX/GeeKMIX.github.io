@@ -645,7 +645,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["English","Note","Game","Daily","Python","Tool","Picture","Command"]
+                data: ["English","Note","Daily","Game","Python","Command","Picture","Tool"]
             }
         ],
         yAxis: [
@@ -834,6 +834,12 @@
             
             
             
+            <a href="/tags/Daily/">
+                <span class="chip center-align waves-effect waves-light chip-default">Daily</span>
+            </a>
+            
+            
+            
             <a href="/tags/Game/">
                 <span class="chip center-align waves-effect waves-light chip-default">Game</span>
             </a>
@@ -846,20 +852,14 @@
             
             
             
-            <a href="/tags/Daily/">
-                <span class="chip center-align waves-effect waves-light chip-default">Daily</span>
-            </a>
-            
-            
-            
             <a href="/tags/Python/">
                 <span class="chip center-align waves-effect waves-light chip-default">Python</span>
             </a>
             
             
             
-            <a href="/tags/Tool/">
-                <span class="chip center-align waves-effect waves-light chip-default">Tool</span>
+            <a href="/tags/Command/">
+                <span class="chip center-align waves-effect waves-light chip-default">Command</span>
             </a>
             
             
@@ -870,8 +870,8 @@
             
             
             
-            <a href="/tags/Command/">
-                <span class="chip center-align waves-effect waves-light chip-default">Command</span>
+            <a href="/tags/Tool/">
+                <span class="chip center-align waves-effect waves-light chip-default">Tool</span>
             </a>
             
             
@@ -1219,6 +1219,14 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
